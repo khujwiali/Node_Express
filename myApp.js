@@ -16,7 +16,7 @@ app.get('/',(req,res)=>{
     res.send("Hello Express");
 })
 
-app.listen(3000,()=> console.log("Sever Started"))
+app.listen(3001,()=> console.log("Sever Started"))
 
 /** 3) Serve an HTML file */
 
